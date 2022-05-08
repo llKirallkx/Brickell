@@ -1,0 +1,16 @@
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Linhas só pra poder ver como está os espaçamentos da sessão, pode tirar isso depois */
+*{
+    border: 1px solid black; 
+}
+
+section{
+    height: 70vh;
+}
