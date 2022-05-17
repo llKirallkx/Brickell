@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -13,6 +14,9 @@ a{
 ul{
     list-style: none;
 }
+:target{
+    scroll-margin-top: 12vh;
+}
 /* Linhas só pra poder ver como está os espaçamentos da sessão, pode tirar isso depois */
 *{
     border: 1px solid black; 
@@ -20,6 +24,7 @@ ul{
 
 section{
     height: 70vh;
+    margin: 0 5vh;
 }
 
 /* header */
@@ -72,3 +77,13 @@ header{
     
 }
 /* FIM - Inicio */
+
+/* Curitiba */
+
+.curitiba-ft{
+    height: 35vh;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.87);
+}
+
+/* FIM - Curitiba */
