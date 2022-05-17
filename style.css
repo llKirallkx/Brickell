@@ -8,6 +8,7 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style: none;
@@ -53,7 +54,21 @@ header{
 /* Inicio */
 
 .inicio{
-    margin-top: 50vh;
+    margin-top: 11vh;
 }
-
+.all-inclusive{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(251, 206, 5, 0.411) 0%, rgba(250, 196, 61, 0.37) 65%, rgba(243, 248, 197, 0.493) 100%), url(./img/pizza.jpg) no-repeat fixed top;
+    background-size: cover;
+    height: 66vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.all-inclusive h2{
+    color: white;
+    
+}
 /* FIM - Inicio */
