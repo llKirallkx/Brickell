@@ -17,13 +17,10 @@ ul{
 :target{
     scroll-margin-top: 12vh;
 }
-/* Linhas só pra poder ver como está os espaçamentos da sessão, pode tirar isso depois */
-*{
-    border: 1px solid black; 
-}
+
 
 section{
-    height: 70vh;
+    height: auto;
     margin: 0 5vh;
 }
 
@@ -80,10 +77,62 @@ header{
 
 /* Curitiba */
 
+.curitiba-titulo{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 4vh;
+}
+
+.curitiba-titulo-h1{
+    border-bottom: 2px solid black;
+    width: fit-content;
+    padding: 10px 60px;
+}
+
 .curitiba-ft{
     height: 35vh;
     border-radius: 30px;
     box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.87);
 }
 
+.curitiba-one{
+    display: flex;
+}
+.curitiba-one-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.curitiba-one-p{
+    text-align:justify;
+    margin: 5vh 2vw;
+}
+.curitiba-two{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3vh;
+}
+.curitiba-ft-2{
+    height: 35vh;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.87);
+}
+.curitiba-two-txt h2, p, h3{
+    margin: 0 0 3vh 0;
+}
+.curitiba-3{
+    display: flex;
+    height: 450px;
+}
+.curitiba-3-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.curitiba-3-txt h2{
+    margin: 0 2vh 5vh 2vh;
+}
 /* FIM - Curitiba */
